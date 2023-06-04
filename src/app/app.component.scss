@@ -1,5 +1,13 @@
 
 
+// Student Name: Tsam Wong
+// Stduent ID: 301253584
+// Date: 2 June 2023
+// Page: Navigation Bar
+
+
+
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -32,11 +40,12 @@ li a:hover {
 }
 
 
-// nav
-// {
-//    position: fixed;
-
-//    padding-right: 0;
-//    padding-left: 0;
-//    width: 100%;
-// }
+nav
+{
+   position: fixed;
+   opacity: 0.9;
+   padding-right: 0;
+   padding-left: 0;
+   width: 100%;
+   z-index: 999;
+}

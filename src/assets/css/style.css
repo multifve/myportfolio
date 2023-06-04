@@ -1,4 +1,14 @@
-/********** Template CSS **********/
+/*
+
+Student Name: Tsam Wong
+Stduent ID: 301253584
+Date: 2 June 2023
+Page: CSS
+
+
+ */
+
+
 :root {
     --primary: #066ab6;
     --secondary: #E93C05;
@@ -279,87 +289,8 @@ h6,
 
 
 /*** Project ***/
-.project-item,
-.project-item .project-img {
-    position: relative;
-}
-
-.project-item .project-img a {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(255, 255, 255, .5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    opacity: 0;
-    transition: .5s;
-}
-
-.project-item:hover .project-img a {
-    opacity: 1;
-}
-
-.project-item .project-title {
-    position: absolute;
-    top: 3rem;
-    right: 0;
-    bottom: 0;
-    left: 3rem;
-    border: 1px solid var(--light);
-    border-radius: 8px;
-    display: flex;
-    align-items: flex-end;
-    padding: 18px;
-    z-index: -1;
-    transition: .5s;
-}
-
-.project-item:hover .project-title {
-    background: var(--primary);
-    border-color: var(--primary);
-}
-
-.project-item .project-title h4 {
-    transition: .5s;
-}
-
-.project-item:hover .project-title h4 {
-    color: #FFFFFF;
-}
-
-.project-carousel .owl-nav {
-    margin-top: 25px;
-    display: flex;
-    justify-content: center;
-}
-
-.project-carousel .owl-nav .owl-prev,
-.project-carousel .owl-nav .owl-next {
-    margin: 0 12px;
-    width: 45px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--primary);
-    background: var(--light);
-    border-radius: 45px;
-    font-size: 22px;
-    transition: .5s;
-}
-
-.project-carousel .owl-nav .owl-prev:hover,
-.project-carousel .owl-nav .owl-next:hover {
-    background: var(--primary);
-    color: var(--light);
-}
 
 
-/*** Team ***/
 .team-item {
     position: relative;
     padding: 13rem 0;

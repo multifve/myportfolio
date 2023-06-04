@@ -362,19 +362,20 @@ h6,
 /*** Team ***/
 .team-item {
     position: relative;
-    padding: 4rem 0;
+    padding: 13rem 0;
 }
 
 .team-item img {
+    width: 300px;
     position: relative;
     z-index: 2;
 }
 
 .team-item .team-text {
     position: absolute;
-    top: 0;
+    top: 8rem;
     right: 3rem;
-    bottom: 0;
+    bottom: 0rem;
     left: 3rem;
     padding: 15px;
     border: 1px solid var(--light);
@@ -385,10 +386,11 @@ h6,
     justify-content: space-between;
     transition: .5s;
     z-index: 1;
+
 }
 
 .team-item:hover .team-text {
-    background: var(--primary);
+
     border-color: var(--primary);
 }
 
@@ -397,10 +399,12 @@ h6,
 }
 
 .team-item:hover .team-text h4 {
-    color: #FFFFFF;
+    color:#066ab6;
 }
 
-.team-item .team-social .btn {
+
+
+/* .team-item .team-social .btn {
     background: var(--light);
     color: var(--primary);
 }
@@ -412,7 +416,7 @@ h6,
 .team-item .team-social .btn:hover {
     background: var(--primary);
     color: var(--light);
-}
+} */
 
 
 /*** Testimonial ***/

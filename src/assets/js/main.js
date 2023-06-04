@@ -1,3 +1,11 @@
+
+
+// Student Name: Tsam Wong
+// Stduent ID: 301253584
+// Date: 2 June 2023
+// Page: JS
+
+
 (function ($) {
     "use strict";
 
@@ -10,8 +18,8 @@
         }, 1);
     };
     spinner();
-    
-    
+
+
     // Initiate the wowjs
     new WOW().init();
 
@@ -32,8 +40,8 @@
             }
         }
     });
-    
-    
+
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
@@ -110,6 +118,6 @@
         }
     });
 
-    
+
 })(jQuery);
 
